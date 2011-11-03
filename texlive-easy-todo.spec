@@ -1,3 +1,9 @@
+# revision 21157
+# category Package
+# catalog-ctan /macros/latex/contrib/easy-todo
+# catalog-date 2011-01-20 10:27:03 +0100
+# catalog-license apache2
+# catalog-version 1.0
 Name:		texlive-easy-todo
 Version:	1.0
 Release:	1
@@ -40,6 +46,7 @@ will provide an index of things to do.
 %doc %{_texmfdistdir}/doc/latex/easy-todo/README
 %doc %{_texmfdistdir}/doc/latex/easy-todo/easy-todo.pdf
 %doc %{_texmfdistdir}/doc/latex/easy-todo/easy-todo.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -50,3 +57,5 @@ will provide an index of things to do.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
