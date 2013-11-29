@@ -1,12 +1,12 @@
-# revision 21157
+# revision 32164
 # category Package
 # catalog-ctan /macros/latex/contrib/easy-todo
-# catalog-date 2011-01-20 10:27:03 +0100
+# catalog-date 2013-11-15 07:22:56 +0100
 # catalog-license apache2
-# catalog-version 1.0
+# catalog-version 2.0
 Name:		texlive-easy-todo
-Version:	1.0
-Release:	2
+Version:	2.0
+Release:	1
 Summary:	To-do notes in a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/easy-todo
@@ -47,17 +47,3 @@ will provide an index of things to do.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0-2
-+ Revision: 751282
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.0-1
-+ Revision: 718294
-- texlive-easy-todo
-- texlive-easy-todo
-- texlive-easy-todo
-- texlive-easy-todo
-
