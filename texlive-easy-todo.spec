@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-easy-todo
 Version:	1.0
-Release:	2
+Release:	3
 Summary:	To-do notes in a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/easy-todo
