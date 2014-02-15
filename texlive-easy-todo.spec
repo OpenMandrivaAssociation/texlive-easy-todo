@@ -1,12 +1,12 @@
-# revision 32164
+# revision 32677
 # category Package
 # catalog-ctan /macros/latex/contrib/easy-todo
-# catalog-date 2013-11-15 07:22:56 +0100
+# catalog-date 2014-01-14 11:49:17 +0100
 # catalog-license apache2
-# catalog-version 2.0
+# catalog-version undef
 Name:		texlive-easy-todo
-Version:	2.0
-Release:	5
+Version:	20140114
+Release:	1
 Summary:	To-do notes in a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/easy-todo
