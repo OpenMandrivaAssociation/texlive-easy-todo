@@ -5,7 +5,7 @@
 # catalog-license apache2
 # catalog-version undef
 Name:		texlive-easy-todo
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	To-do notes in a document
 Group:		Publishing
