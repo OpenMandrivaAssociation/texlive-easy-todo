@@ -1,18 +1,12 @@
-# revision 32677
-# category Package
-# catalog-ctan /macros/latex/contrib/easy-todo
-# catalog-date 2014-01-14 11:49:17 +0100
-# catalog-license apache2
-# catalog-version undef
 Name:		texlive-easy-todo
-Version:	20190228
+Version:	32677
 Release:	1
 Summary:	To-do notes in a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/easy-todo
 License:	APACHE2
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/easy-todo.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/easy-todo.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/easy-todo.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/easy-todo.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -23,12 +17,12 @@ The package provides to-do notes throughout a document, and
 will provide an index of things to do.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -40,7 +34,7 @@ will provide an index of things to do.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
