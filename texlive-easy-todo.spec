@@ -3,7 +3,7 @@ Version:	32677
 Release:	2
 Summary:	To-do notes in a document
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/easy-todo
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/easy-todo
 License:	APACHE2
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/easy-todo.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/easy-todo.doc.r%{version}.tar.xz
